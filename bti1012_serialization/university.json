@@ -1,0 +1,30 @@
+{
+  "name" : "bfh",
+  "staff" : [ {
+    "type" : "Student",
+    "name" : "Max",
+    "email" : "max@bfh.ch",
+    "grade" : "B"
+  }, {
+    "type" : "Professor",
+    "name" : "Mr. X",
+    "email" : "prof.x@bfh.ch",
+    "subject" : "IT Security"
+  }, {
+    "type" : "Employee",
+    "name" : "Erni Schmidt",
+    "email" : "erni.schmidt@bfh.ch",
+    "department" : "HR"
+  } ],
+  "students" : [ {
+    "type" : "Student",
+    "name" : "Max",
+    "email" : "max@bfh.ch",
+    "grade" : "B"
+  }, {
+    "type" : "Student",
+    "name" : "Tom",
+    "email" : "tom@bfh.ch",
+    "grade" : "C"
+  } ]
+}

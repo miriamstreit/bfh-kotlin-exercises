@@ -1,0 +1,32 @@
+<university>
+  <name>bfh</name>
+  <staff>
+    <staffmember type="Student">
+      <name>Max</name>
+      <email>max@bfh.ch</email>
+      <grade>B</grade>
+    </staffmember>
+    <staffmember type="Professor">
+      <name>Mr. X</name>
+      <email>prof.x@bfh.ch</email>
+      <subject>IT Security</subject>
+    </staffmember>
+    <staffmember type="Employee">
+      <name>Erni Schmidt</name>
+      <email>erni.schmidt@bfh.ch</email>
+      <department>HR</department>
+    </staffmember>
+  </staff>
+  <students>
+    <student type="Student">
+      <name>Max</name>
+      <email>max@bfh.ch</email>
+      <grade>B</grade>
+    </student>
+    <student type="Student">
+      <name>Tom</name>
+      <email>tom@bfh.ch</email>
+      <grade>C</grade>
+    </student>
+  </students>
+</university>
