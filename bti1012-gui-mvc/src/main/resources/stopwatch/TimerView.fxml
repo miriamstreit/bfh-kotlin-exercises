@@ -1,0 +1,14 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER">
+    <Label fx:id="timeLabel" styleClass="timeLabel" text="0.0"/>
+    <HBox alignment="CENTER">
+        <Button fx:id="startButton" onAction="#runStart" styleClass="button">Start</Button>
+        <Button fx:id="stopButton" onAction="#runStop" styleClass="button">Stop</Button>
+        <Button fx:id="resetButton" onAction="#runReset" styleClass="button">Reset</Button>
+    </HBox>
+    <Label fx:id="statusLabel" styleClass="statusLabel" text="Stopped"/>
+</VBox>

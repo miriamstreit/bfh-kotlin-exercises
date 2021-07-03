@@ -1,0 +1,18 @@
+#timeLabel {
+    -fx-font-family: Dialog;
+    -fx-font-size: 28pt;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, pink, 5, 0.2, 2, 3);
+}
+
+.button {
+    -fx-start-margin: 5px;
+    -fx-end-margin: 5px;
+    -fx-padding: 3px;
+    -fx-background-color: red;
+    -fx-spacing: 5px;
+}
+
+.statusLabel {
+
+}
