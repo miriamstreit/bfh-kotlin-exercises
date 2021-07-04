@@ -1,11 +1,7 @@
-import javafx.scene.Parent
 import javafx.scene.control.Label
 import javafx.scene.layout.HBox
 import model.BitcoinData
 import tornadofx.View
-import java.beans.PropertyChangeSupport
-
-const val url = "https://api.coindesk.com/v1/bpi/currentprice.json"
 
 class BitcoinViewerView: View("Bitcoin Viewer") {
     override val root: HBox by fxml("bitcoin_dashboard.fxml");
