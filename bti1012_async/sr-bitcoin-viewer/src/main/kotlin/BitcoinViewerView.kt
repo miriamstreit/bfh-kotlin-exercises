@@ -18,8 +18,8 @@ class BitcoinViewerView: View("Bitcoin Viewer") {
 
     private fun updateRate() {
         println("Updating rate by calling API...")
-        val apiRequester: ApiRequester = ApiRequester(url);
-        this.bitcoinData = apiRequester.callUrl();
+        val apiRequester: ApiRequester = ApiRequester();
+        this.bitcoinData = apiRequester.callUrl(coindeskUrl);
         bitcoinRateLabel.text = "The USD-rate is currently: " + this.bitcoinData.bpi.USD.rate;
     }
 
